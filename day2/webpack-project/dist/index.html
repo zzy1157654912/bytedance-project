@@ -1,0 +1,165 @@
+Html Webpack Plugin:
+<pre>
+  Error: Child compilation failed:
+  Module build failed (from ./node_modules/babel-loader/lib/index.js):
+  SyntaxError: D:\Users\乐露\Desktop\bytedance-project\day2\webpack-project\node_modules\html-webpack-plugin\default_index.e  js: Unexpected token (1:0)
+  
+  > 1 | <!DOCTYPE html>
+      | ^
+    2 | <html><head><meta name="viewport" content="width=device-width, initial-scale=1"><script defer src="main.bundle.js"></script></head>
+    3 |   <head>
+    4 |     <meta charset="utf-8">
+      at Parser._raise (D:\Users\乐露\Desktop\bytedance-project\day2\webpack-project\node_modules\@babel\parser\lib\index.js  :510:17)
+      at Parser.raiseWithData (D:\Users\乐露\Desktop\bytedance-project\day2\webpack-project\node_modules\@babel\parser\lib\i  ndex.js:503:17)
+      at Parser.raise (D:\Users\乐露\Desktop\bytedance-project\day2\webpack-project\node_modules\@babel\parser\lib\index.js:  464:17)
+      at Parser.unexpected (D:\Users\乐露\Desktop\bytedance-project\day2\webpack-project\node_modules\@babel\parser\lib\inde  x.js:3368:16)
+      at Parser.parseExprAtom (D:\Users\乐露\Desktop\bytedance-project\day2\webpack-project\node_modules\@babel\parser\lib\i  ndex.js:11648:20)
+      at Parser.parseExprSubscripts (D:\Users\乐露\Desktop\bytedance-project\day2\webpack-project\node_modules\@babel\parser  \lib\index.js:11217:23)
+      at Parser.parseUpdate (D:\Users\乐露\Desktop\bytedance-project\day2\webpack-project\node_modules\@babel\parser\lib\ind  ex.js:11197:21)
+      at Parser.parseMaybeUnary (D:\Users\乐露\Desktop\bytedance-project\day2\webpack-project\node_modules\@babel\parser\lib  \index.js:11172:23)
+      at Parser.parseMaybeUnaryOrPrivate (D:\Users\乐露\Desktop\bytedance-project\day2\webpack-project\node_modules\@babel\p  arser\lib\index.js:10986:59)
+      at Parser.parseExprOps (D:\Users\乐露\Desktop\bytedance-project\day2\webpack-project\node_modules\@babel\parser\lib\in  dex.js:10993:23)
+  ModuleBuildError: Module build failed (from ./node_modules/babel-loader/lib/index.js):
+  SyntaxError: D:\Users\乐露\Desktop\bytedance-project\day2\webpack-project\node_modules\html-webpack-plugin\default_index.e  js: Unexpected token (1:0)
+  
+  > 1 | <!DOCTYPE html>
+      | ^
+    2 | <html>
+    3 |   <head>
+    4 |     <meta charset="utf-8">
+      at Parser._raise (D:\Users\乐露\Desktop\bytedance-project\day2\webpack-project\node_modules\@babel\parser\lib\index.js  :510:17)
+      at Parser.raiseWithData (D:\Users\乐露\Desktop\bytedance-project\day2\webpack-project\node_modules\@babel\parser\lib\i  ndex.js:503:17)
+      at Parser.raise (D:\Users\乐露\Desktop\bytedance-project\day2\webpack-project\node_modules\@babel\parser\lib\index.js:  464:17)
+      at Parser.unexpected (D:\Users\乐露\Desktop\bytedance-project\day2\webpack-project\node_modules\@babel\parser\lib\inde  x.js:3368:16)
+      at Parser.parseExprAtom (D:\Users\乐露\Desktop\bytedance-project\day2\webpack-project\node_modules\@babel\parser\lib\i  ndex.js:11648:20)
+      at Parser.parseExprSubscripts (D:\Users\乐露\Desktop\bytedance-project\day2\webpack-project\node_modules\@babel\parser  \lib\index.js:11217:23)
+      at Parser.parseUpdate (D:\Users\乐露\Desktop\bytedance-project\day2\webpack-project\node_modules\@babel\parser\lib\ind  ex.js:11197:21)
+      at Parser.parseMaybeUnary (D:\Users\乐露\Desktop\bytedance-project\day2\webpack-project\node_modules\@babel\parser\lib  \index.js:11172:23)
+      at Parser.parseMaybeUnaryOrPrivate (D:\Users\乐露\Desktop\bytedance-project\day2\webpack-project\node_modules\@babel\p  arser\lib\index.js:10986:59)
+      at Parser.parseExprOps (D:\Users\乐露\Desktop\bytedance-project\day2\webpack-project\node_modules\@babel\parser\lib\in  dex.js:10993:23)
+      at processResult (D:\Users\乐露\Desktop\bytedance-project\day2\webpack-project\node_modules\webpack\lib\NormalModule.j  s:721:19)
+      at D:\Users\乐露\Desktop\bytedance-project\day2\webpack-project\node_modules\webpack\lib\NormalModule.js:827:5
+      at D:\Users\乐露\Desktop\bytedance-project\day2\webpack-project\node_modules\loader-runner\lib\LoaderRunner.js:399:11
+      at D:\Users\乐露\Desktop\bytedance-project\day2\webpack-project\node_modules\loader-runner\lib\LoaderRunner.js:251:18
+      at context.callback (D:\Users\乐露\Desktop\bytedance-project\day2\webpack-project\node_modules\loader-runner\lib\Loade  rRunner.js:124:13)
+      at D:\Users\乐露\Desktop\bytedance-project\day2\webpack-project\node_modules\babel-loader\lib\index.js:59:103
+  
+  - index.js:510 Parser._raise
+    [webpack-project]/[@babel]/parser/lib/index.js:510:17
+  
+  - index.js:503 Parser.raiseWithData
+    [webpack-project]/[@babel]/parser/lib/index.js:503:17
+  
+  - index.js:464 Parser.raise
+    [webpack-project]/[@babel]/parser/lib/index.js:464:17
+  
+  - index.js:3368 Parser.unexpected
+    [webpack-project]/[@babel]/parser/lib/index.js:3368:16
+  
+  - index.js:11648 Parser.parseExprAtom
+    [webpack-project]/[@babel]/parser/lib/index.js:11648:20
+  
+  - index.js:11217 Parser.parseExprSubscripts
+    [webpack-project]/[@babel]/parser/lib/index.js:11217:23
+  
+  - index.js:11197 Parser.parseUpdate
+    [webpack-project]/[@babel]/parser/lib/index.js:11197:21
+  
+  - index.js:11172 Parser.parseMaybeUnary
+    [webpack-project]/[@babel]/parser/lib/index.js:11172:23
+  
+  - index.js:10986 Parser.parseMaybeUnaryOrPrivate
+    [webpack-project]/[@babel]/parser/lib/index.js:10986:59
+  
+  - index.js:10993 Parser.parseExprOps
+    [webpack-project]/[@babel]/parser/lib/index.js:10993:23
+  
+  - ModuleBuildError: Module build failed (from ./node_modules/babel-loader/lib/index.js):
+  
+  - SyntaxError: D:\Users\乐露\Desktop\bytedance-project\day2\webpack-project\node_modules\html-webpack-plugin\default_index    .ejs: Unexpected token (1:0)
+  
+  - > 1 | <!DOCTYPE html>
+  
+  -     | ^
+  
+  -   2 | <html>
+  
+  -   3 |   <head>
+  
+  -   4 |     <meta charset="utf-8">
+  
+  - index.js:510 Parser._raise
+    [webpack-project]/[@babel]/parser/lib/index.js:510:17
+  
+  - index.js:503 Parser.raiseWithData
+    [webpack-project]/[@babel]/parser/lib/index.js:503:17
+  
+  - index.js:464 Parser.raise
+    [webpack-project]/[@babel]/parser/lib/index.js:464:17
+  
+  - index.js:3368 Parser.unexpected
+    [webpack-project]/[@babel]/parser/lib/index.js:3368:16
+  
+  - index.js:11648 Parser.parseExprAtom
+    [webpack-project]/[@babel]/parser/lib/index.js:11648:20
+  
+  - index.js:11217 Parser.parseExprSubscripts
+    [webpack-project]/[@babel]/parser/lib/index.js:11217:23
+  
+  - index.js:11197 Parser.parseUpdate
+    [webpack-project]/[@babel]/parser/lib/index.js:11197:21
+  
+  - index.js:11172 Parser.parseMaybeUnary
+    [webpack-project]/[@babel]/parser/lib/index.js:11172:23
+  
+  - index.js:10986 Parser.parseMaybeUnaryOrPrivate
+    [webpack-project]/[@babel]/parser/lib/index.js:10986:59
+  
+  - index.js:10993 Parser.parseExprOps
+    [webpack-project]/[@babel]/parser/lib/index.js:10993:23
+  
+  - NormalModule.js:721 processResult
+    [webpack-project]/[webpack]/lib/NormalModule.js:721:19
+  
+  - NormalModule.js:827 
+    [webpack-project]/[webpack]/lib/NormalModule.js:827:5
+  
+  - LoaderRunner.js:399 
+    [webpack-project]/[loader-runner]/lib/LoaderRunner.js:399:11
+  
+  - LoaderRunner.js:251 
+    [webpack-project]/[loader-runner]/lib/LoaderRunner.js:251:18
+  
+  - LoaderRunner.js:124 context.callback
+    [webpack-project]/[loader-runner]/lib/LoaderRunner.js:124:13
+  
+  - index.js:59 
+    [webpack-project]/[babel-loader]/lib/index.js:59:103
+  
+  - child-compiler.js:169 
+    [webpack-project]/[html-webpack-plugin]/lib/child-compiler.js:169:18
+  
+  - Compiler.js:548 
+    [webpack-project]/[webpack]/lib/Compiler.js:548:11
+  
+  - Compiler.js:1118 
+    [webpack-project]/[webpack]/lib/Compiler.js:1118:17
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [webpack-project]/[tapable]/lib/Hook.js:18:14
+  
+  - Compiler.js:1114 
+    [webpack-project]/[webpack]/lib/Compiler.js:1114:33
+  
+  - Compilation.js:2256 finalCallback
+    [webpack-project]/[webpack]/lib/Compilation.js:2256:11
+  
+  - Compilation.js:2547 
+    [webpack-project]/[webpack]/lib/Compilation.js:2547:11
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [webpack-project]/[tapable]/lib/Hook.js:18:14
+  
+</pre>
