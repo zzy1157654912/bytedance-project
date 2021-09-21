@@ -15,11 +15,10 @@
     "figlet": "^1.5.2"
   },
   "bin": {
-    "vue-auto-router-cli": "bin/kkb.js"
+    "kkb": "bin/kkb.js"
   },
   "directories": {
     "lib": "lib"
   },
-  "devDependencies": {},
   "description": ""
 }
