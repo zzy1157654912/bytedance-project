@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        (function () {
+      var metaEl = document.createElement('meta');
+      var scale = devicePixelRatio;
+      metaEl.setAttribute('name', 'viewport');
+      metaEl.setAttribute('content', 'initial-scale=' + (1/scale) + ', maximum-scale=' + (1/scale) + ', minimum-scale=' + (1/scale) + ', user-scalable=no');
+      document.documentElement.firstElementChild.appendChild(metaEl);
+})();
+    //root em 设置
+    (function() {
+        var doc = document.documentElement;
+        doc.style.fontSize = window.innerWidth/15 + "px";
+    })();
+
+    //比例单位：vw：100vw = 1屏幕宽度
+    </script>
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        .box {
+            display: flex;
+            justify-content: space-around;
+        }
+        .box div {
+            width: 46.4vw;
+            height: 24vw;
+            background: red;
+            margin: 0 0.2rem;
+            font-size: 5vw;
+        }
+        .box div:nth-child(1) {
+            /* margin: 0 2.133vw 0 2.667vw; */
+        }
+
+        nav {
+            display: flex;
+        }
+        nav a {
+            margin: 0 4px;
+            font-size: 3.2vw;
+            text-decoration: none;
+        }
+        @media all and (min-width:640px) {
+            nav a {
+                color: green;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div>尖货抽签</div>
+        <div>新品日历</div>
+    </div>
+    <nav>
+        <a href="">文字1</a>
+        <a href="">文字2</a>
+        <a href="">文字3</a>
+        <a href="">文字4</a>
+        <a href="">文字5</a>
+        <a href="">文字6</a>
+    </nav>
+</body>
+</html>
